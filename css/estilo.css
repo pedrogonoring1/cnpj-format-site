@@ -1,0 +1,379 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(211, 211, 211);
+}
+/* grid 960px */
+#box-page{
+    background: white;
+    border-radius: 15px;
+    width: 1050px;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-top: 1.5%;
+}
+a:link, a:visited{
+    color: rgb(73, 73, 73);
+    text-decoration: none;
+    font-size: 18;
+}
+a:hover{
+    text-decoration: underline;
+    color:rgb(138, 30, 210, 1);
+}
+
+.linha{
+    width: 960px;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 5px 0;
+
+}
+.coluna{
+    padding: 0 10px;
+    float: left;
+}
+.col1{
+    width: 60px;
+}
+.col2{
+    width: 140px;
+}
+.col3{
+    width: 220px;
+}
+.col4{
+    width: 300px;
+}
+.col5{
+    width: 380px;
+}
+.col6{
+    width: 460px;
+}
+.col7{
+    width: 540px;
+}
+.col8{
+    width: 620px;
+}
+.col9{
+    width: 700px;
+}
+.col10{
+    width: 780px;
+}
+.col11{
+    width: 860px;
+}
+.col12{
+    width: 940px;
+}
+
+.img-logo{
+    width: 40px;
+    margin-top: 0px;
+    margin-right: 5px;
+}
+.img-logo:hover{
+    cursor: pointer;
+    opacity: 70%;
+}
+.logo{
+    color: rgb(113, 81, 255);
+    margin-bottom: 10%;
+
+}
+#meuTextoVaiAqui{
+    font-size: 22px;
+    color: rgb(2, 170, 2);
+    margin-left: 36%;
+    font-weight: bold;
+    margin-top: 10%;
+}
+.creditos{
+    margin-left: 35%;
+    margin-top: 5%;
+}
+.logo:hover{
+    color: rgb(7, 141, 230);
+    text-decoration: none;
+}
+
+.menu li{
+    display: inline-block;
+    margin-right: 25px;
+    margin-top: 16px;
+    font-size: 18px;
+    
+}
+.menu_one{
+    margin-left: 0px;
+    
+}
+.menu-end{
+    margin-right: 0px;
+}
+.titulo-post{
+    margin-left: 40%;
+    margin-top: 10%;
+    color: rgb(73, 73, 73);
+}
+
+.image-post{
+    margin-left: 12%;
+    margin-top: 2%;
+}
+.consulta{
+    width: 600px;
+    height: 30px;
+    font-size: 17px;
+    border-radius: 20px;
+    border-color: rgb(93, 57, 253);
+    outline: none;
+    text-align: center;
+    border-style: solid;
+    color: rgb(30, 57, 210);
+    margin-left: 10%;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.consulta:hover{
+    border-color: rgb(204, 204, 204);
+}
+.consulta-pages{
+    width: 135px;
+    height: 25px;
+    font-size: 14px;
+    border-radius: 20px;
+    border-color: rgb(138, 30, 210);
+    outline: none;
+    text-align: center;
+    border-style: solid;
+    color: rgb(138, 30, 210);
+}
+.consulta-pages:hover{
+    border-color: rgb(204, 204, 204);
+}
+.btn-pesquisar{
+    width: 120px;
+    height: 40px;
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    border-style: solid;
+    background-color: rgb(93, 57, 253);
+    font-size: 17px;
+    margin-left: 10px;
+    outline: none;
+
+}
+.btn-pesquisar:hover{
+    color: rgb(30, 72, 210);
+    background-color: white;
+    border-color: rgb(204, 204, 204);
+    cursor: pointer;
+    outline: none;
+}
+.btn-limpar{
+    width: 120px;
+    height: 40px;
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    border-style: solid;
+    background-color: rgb(250, 117, 135);
+    font-size: 17px;
+    margin-left: 40%;
+    outline: none;
+    margin-top: 3%;
+
+}
+.btn-limpar:hover{
+    color: rgb(210, 30, 60);
+    background-color: white;
+    border-color: rgb(204, 204, 204);
+    cursor: pointer;
+    outline: none;
+}
+.btn-pesquisar-pages{
+    width: 105px;
+    height: 35px;
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    border-style: solid;
+    background-color: rgb(138, 30, 210);
+    font-size: 14px;
+    margin-left: 1px;
+    outline: none;
+}
+.btn-pesquisar-pages:hover{
+    color: rgb(138, 30, 210);
+    background-color: white;
+    border-color: rgb(204, 204, 204);
+    cursor: pointer;
+    outline: none;
+}
+#form-consulta{
+    margin-top: 80px;
+    margin-left: 12%;
+}
+#form-consulta-pages{
+    margin-top: -5px;
+    margin-left: 71%;
+}
+.title-recomendadas{
+    color: rgb(138, 30, 210);
+    margin-top: 90px;
+    margin-left: 35%;
+}
+.title-post-pages{
+    color: rgb(138, 30, 210);
+    margin-top: 60px;
+    margin-left: 37%;
+    font-size: 35px;
+}
+.card1{
+    width: 300px;
+    height: 320px;
+    background-color: rgb(138, 30, 210);
+    border-radius: 30px;
+    margin-top: 5px;
+}
+
+.img-card{
+    width: 300px;
+    height: 180px;
+    border-radius: 28px 28px 0 0;
+    opacity: 50%;
+}
+.img-card:hover{
+    opacity: 85%;
+    transition: 0.5s;
+}
+.title-card{
+    color: white;
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+    margin-left: 20px;
+    margin-top: 8px;
+}
+.txt-card{
+    color: white;
+    font-size: 17px;
+    margin: 0;
+    margin-top: 9px;
+    margin-left: 20px;
+    justify-self: auto;
+    padding-right: 20px;
+    opacity: 80%;
+}
+a.link-card{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+    margin-left: 20px;
+}
+.title-ocasiao{
+    color: rgb(138, 30, 210);
+    margin-top: 90px;
+    margin-left: 27%;
+}
+.btns-ocasiao{
+    margin-left: 7%;
+}
+#title-receita-galera{
+    margin-left: 38%;
+}
+.btn-todas-receitas{
+    width: 300px;
+    height: 40px;
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    border-style: solid;
+    background-color: rgb(138, 30, 210);
+    font-size: 17px;
+    margin-left: 10px;
+    margin-top: 10%;
+    margin-left: 32%;
+    outline: none;
+}
+.btn-todas-receitas:hover{
+    color: rgb(138, 30, 210);
+    background-color: white;
+    border-color: rgb(204, 204, 204);
+    cursor: pointer;
+    outline: none;
+}
+.img-post-page{
+    width: 100%;
+    margin-top: 1%;
+}
+.paragrafo-posts{
+    text-align: justify;
+    font-size: 22px;
+    color: rgb(88, 88, 88);
+}
+.title-preparo{
+    color: rgb(138, 30, 210);
+    padding-left: 30px;
+    margin-top: 30px;
+}
+.paragrafo-posts-topic{
+    text-align: justify;
+    font-size: 19px;
+    color: rgb(75, 75, 75);
+    padding-left: 30px;
+    padding-right: 250px;
+    margin-bottom: 30px;
+    
+}
+
+
+.foot{
+    width: 200px;
+    height: 50px;
+    
+}
+.foot{
+    width: 100%;
+    height: 300px;
+    background-color:rgb(138, 30, 210);
+    margin: 0;
+    margin-top: 150px;
+    border-radius: 0 0 15px 15px;
+}
+.foote{
+    margin: 0 auto;
+    overflow: auto;
+    padding: 0px;
+    width: 100%;
+}
+.foot-space{
+   padding-top: 12%;
+}
+#text-foot{
+    color: white;
+    margin-left: 40%;
+    margin-top: 5%;
+}
+#link-foot1{
+    margin-right: 7%;
+    margin-left: 29%;
+    color: rgb(217, 180, 241);
+}
+#link-foot2{
+    margin-right: 7%;
+    color: rgb(217, 180, 241);
+
+}
+#link-foot3{
+    color: rgb(217, 180, 241);
+
+}
+#text-foot2{
+    color: white;
+    margin-left: 43%;
+    margin-top: 1px;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>Configurador de CNPJ</title>
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+</head>
+<body>
+
+    <div id="box-page">
+    
+        <div class="linha">
+            <div class="coluna col12">
+                <h1 class="logo">Configurador de CNPJ</h1>
+            </div>
+        </div>
+
+        <div class="linha">
+            <div class="coluna col12">
+                <div id="app">
+                    <input type="text" id="txtInput" class="consulta" placeholder="Cole o CNPJ aqui com ou sem traços" /> <button id="myBtn" class="btn-pesquisar" onclick="escrever(this);" >Usar</button>
+                    <br/><span id="meuTextoVaiAqui"></span>
+                </div>  
+            </div>
+        </div>
+    
+
+        <div class="linha">
+            <div class="coluna col12">
+                <a href=""><button class="btn-limpar" >Limpar</button></a>
+            </div>
+        </div>
+    
+
+
+        <div class="linha">
+            <div class="coluna col12">
+                <p class="creditos">Desenvolvido por Pedro Gonoring</p>
+            </div>
+        </div>
+
+
+
+
+    </div>
+
+    <script>
+        
+        function escrever(btn){
+            var a = document.getElementById("txtInput").value;
+            
+            if (a.length == 18){
+                resultados = (a[0] + a[1] + a[3] + a[4] + a[5] + a[7] + a[8] + a[9] + a[11] + a[12] + a[13] + a[14] + a[16] + a[17]);
+                document.getElementById('meuTextoVaiAqui').innerHTML = resultados;
+            }
+            else{
+                resultados = (a[0] + a[1] + '.' + a[2] + a[3] + a[4] + '.' + a[5] + a[6] + a[7] + '/' + a[8] + a[9] + a[10] + a[11] + '-' + a[12] + a[13])
+                document.getElementById('meuTextoVaiAqui').innerHTML = resultados;
+            }
+
+           
+        }
+
+        // 01.654.315/0004-26
+
+    </script>
+    
+</body>
+</html>
