@@ -126,11 +126,21 @@ a:hover{
 #meuTextoVaiAqui{
     font-size: 25px;
     color: rgb(2, 170, 2);
-    margin-left: 37%;
+    margin-left: 35.5%;
     font-weight: bold;
     margin-top: 0%;
 }
 #meuTextoVaiAqui:hover{
+    color: rgb(0, 126, 0);
+}
+#meuTextoVaiAqui-2{
+    font-size: 25px;
+    color: rgb(2, 170, 2);
+    margin-left: 37.5%;
+    font-weight: bold;
+    margin-top: 0%;
+}
+#meuTextoVaiAqui-2:hover{
     color: rgb(0, 126, 0);
 }
 #meuTextoVaiAqui-erro{
