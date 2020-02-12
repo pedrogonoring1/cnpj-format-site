@@ -88,7 +88,7 @@ a:hover{
     
 }
 .consulta{
-    width: 800px;
+    width: 600px;
     height: 45px;
     font-size: 20px;
     border-radius: 40px;
@@ -97,7 +97,7 @@ a:hover{
     text-align: center;
     border-style: solid;
     color: blue;
-    margin-left: 5%;
+    margin-left: 15%;
     margin-top: 0%;
 }
 
