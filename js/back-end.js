@@ -5,7 +5,7 @@ function escrever(btn){
         
     if (a.length == 18){
         resultados = (a[0] + a[1] + a[3] + a[4] + a[5] + a[7] + a[8] + a[9] + a[11] + a[12] + a[13] + a[14] + a[16] + a[17]);
-        document.getElementById('meuTextoVaiAqui-2').innerHTML = resultados;
+        document.getElementById('meuTextoVaiAqui').innerHTML = resultados;
         document.getElementById('link').value = resultados;
         document.getElementById("copiado").innerHTML = '✅ Copiado!';
         document.getElementById('meuTextoVaiAqui-erro').innerHTML = "";
