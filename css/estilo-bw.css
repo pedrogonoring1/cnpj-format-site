@@ -1,6 +1,6 @@
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: white;
+    background-color: rgb(54, 54, 54);
 }
 /* grid 960px */
 
@@ -19,7 +19,8 @@ a:hover{
 .txt-modo-escuro{
     font-size: 18px;
     margin-right: 1%;
-    margin-left: 87%;
+    margin-left: 86.5%;
+    color: white;
 }
 #img-config{
     width: 50px;
@@ -30,7 +31,7 @@ a:hover{
     transition: 0.4s;
 }
 .logo{
-    color: rgb(0, 0, 187);
+    color: rgb(255, 255, 255);
     font-size: 590%;
     margin-top: 7%;
     margin-bottom: 1%;
@@ -47,16 +48,17 @@ a:hover{
     height: 45px;
     font-size: 20px;
     border-radius: 40px;
-    border-color: rgb(0, 0, 187);
+    border-color: rgb(255, 255, 255);
     outline: none;
     text-align: center;
     border-style: solid;
-    color: rgb(0, 0, 187);
+    color: rgb(255, 255, 255);
     margin-left: 34.4%;
+    background-color: rgb(54, 54, 54);
 }
 
 .consulta:hover{
-    border-color: rgb(204, 204, 204);
+    border-color: rgb(34, 34, 34);
 }
 .consulta:focus{
     border-color: rgb(204, 204, 204);
@@ -121,7 +123,7 @@ a:hover{
     border-color: rgb(59, 190, 7);
     border-radius: 30px;
     border-style: solid;  
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(54, 54, 54);
     font-size: 20px;
     margin-left: 38.2%;
     outline: none;
@@ -139,7 +141,7 @@ a:hover{
     color: rgb(247, 63, 87);
     border-radius: 30px;
     border-style: solid;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(54, 54, 54);
     border-color: rgb(247, 63, 87);
     font-size: 20px;
     margin-left: 2%;
@@ -157,45 +159,9 @@ a:hover{
     margin-top: 12%;
     font-size: 18px;
     opacity: 95%;
+    color: white;
 
 }
 #box-home{
     margin: 0;
-}
-
-/** Style Config **/
-#box-config{
-    background-color: rgb(255, 255, 255);
-    width: 700px;
-    height: 600px;
-    margin: auto;
-    margin-top: 1.4%;
-    border-radius: 10px;
-    border: 4px;
-    padding-top: 2%;
-}
-.title-config{
-    font-size: 50px;
-    color: rgb(0, 0, 187);
-    text-align: center;
-}
-.opp-config{
-    display: flex;
-}
-#img-eye{
-    width: 70px;
-    margin-left: 25%;
-    margin-right: 2%;
-}
-
-/** CSS PAGE ATUALIZAÇÃO **/
-#img-atualizacao{
-    width: 70%;
-    margin-top: 5%;
-    margin-left: 15%;
-}
-#img-atualizacao:hover{
-    width: 72%;
-    margin-left: 14%;
-    transition: 2s;
 }
