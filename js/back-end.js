@@ -44,7 +44,7 @@ function escrever(btn){
     
     // Se o texto digitado estiver errado, faltando caracteres:
     else if (a.length > 18 || a.length < 14){
-        document.getElementById('meuTextoVaiAqui-erro').innerHTML = "😭 Ops! CNPJ digitado errado";
+        document.getElementById('meuTextoVaiAqui-erro').innerHTML = "Ops! CNPJ inválido";
 
         //Limpar outros texts
         document.getElementById('meuTextoVaiAqui').innerHTML = "";
@@ -53,7 +53,7 @@ function escrever(btn){
     
     // Se o texto digitado estiver errado, faltando caracteres:
     else if(a.length > 14 && a.length < 18){
-        document.getElementById('meuTextoVaiAqui-erro').innerHTML = "😭 Ops! CNPJ digitado errado";
+        document.getElementById('meuTextoVaiAqui-erro').innerHTML = "Ops! CNPJ inválido";
 
         //Limpar outros texts
         document.getElementById('meuTextoVaiAqui').innerHTML = "";
