@@ -55,25 +55,7 @@ a:hover{
 .consulta:focus{
     border-color: rgb(204, 204, 204);
 }
-.btn-pesquisar{
-    width: 120px;
-    height: 40px;
-    color: rgb(255, 255, 255);
-    border-radius: 20px;
-    border-style: solid;
-    background-color: blue;
-    font-size: 17px;
-    margin-left: 10px;
-    outline: none;
 
-}
-.btn-pesquisar:hover{
-    color: blue;
-    background-color: white;
-    border-color: rgb(204, 204, 204);
-    cursor: pointer;
-    outline: none;
-}
 #meuTextoVaiAqui{
     font-size: 20px;
     color: rgb(2, 170, 2);
@@ -159,4 +141,5 @@ a:hover{
 
 .atualizacao {
     font-size: 14px;
+    opacity: 70%;
 }

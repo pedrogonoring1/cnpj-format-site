@@ -1,6 +1,6 @@
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: rgb(54, 54, 54);
+    background-color: rgb(56, 56, 56);
 }
 /* grid 960px */
 
@@ -18,13 +18,10 @@ a:hover{
 }
 .txt-modo-escuro{
     font-size: 18px;
-    margin-right: 1%;
-    margin-left: 86.5%;
     color: white;
 }
 #img-config{
     width: 50px;
-    margin-top: 14%;
 }
 #img-config:hover{
     transform:  rotate(360deg);
@@ -32,11 +29,8 @@ a:hover{
 }
 .logo{
     color: rgb(255, 255, 255);
-    font-size: 590%;
-    margin-top: 7%;
-    margin-bottom: 1%;
+    font-size: 75px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin-left: 39.4%;
 }
 
 #link{
@@ -53,7 +47,6 @@ a:hover{
     text-align: center;
     border-style: solid;
     color: rgb(255, 255, 255);
-    margin-left: 34.4%;
     background-color: rgb(54, 54, 54);
 }
 
@@ -71,9 +64,7 @@ a:hover{
     border-style: solid;
     background-color: blue;
     font-size: 17px;
-    margin-left: 10px;
     outline: none;
-
 }
 .btn-pesquisar:hover{
     color: blue;
@@ -85,10 +76,9 @@ a:hover{
 #meuTextoVaiAqui{
     font-size: 20px;
     color: rgb(2, 170, 2);
-    margin-left: 40%;
     font-weight: bold;
-    margin-top: 2%;
 }
+
 #meuTextoVaiAqui:hover{
     color: rgb(4, 134, 4);
 }
@@ -96,39 +86,31 @@ a:hover{
 #meuTextoVaiAqui-erro{
     font-size: 20px;
     color: rgb(247, 63, 87);
-    margin-left: 41%;
     font-weight: bold;
-    margin-top: 3%;
 }
 #meuTextoVaiAqui-erro-2{
     font-size: 20px;
     color: rgb(247, 63, 87);
-    margin-left: 41%;
     font-weight: bold;
-    margin-top: 0%;
 }
 #copiado{
     font-size: 18px;
     color: rgb(2, 170, 2);
-    margin-left: 44%;
-    margin-top: 0%;
-    margin-bottom: 2%;
     font-size: 20px;
     transition: ease-in;
 }
 .btn-copy{
-    width: 160px;
-    height: 45px;
+    width: 120px;
     color: rgb(52, 179, 2);
     border-color: rgb(59, 190, 7);
     border-radius: 30px;
     border-style: solid;  
     background-color: rgb(54, 54, 54);
     font-size: 20px;
-    margin-left: 38.2%;
     outline: none;
-    margin-top: 1%;
+    padding: 5px;
 }
+
 .btn-copy:hover{
     color: rgb(255, 255, 255);
     background-color:rgb(59, 190, 7);
@@ -136,18 +118,17 @@ a:hover{
     outline: none;
 }
 .btn-limpar{
-    width: 160px;
-    height: 45px;
+    width: 120px;
     color: rgb(247, 63, 87);
     border-radius: 30px;
     border-style: solid;
     background-color: rgb(54, 54, 54);
     border-color: rgb(247, 63, 87);
     font-size: 20px;
-    margin-left: 2%;
     outline: none;
-    margin-top: 1%;
+    padding: 5px;
 }
+
 .btn-limpar:hover{
     color: rgb(255, 255, 255);
     background-color: rgb(247, 63, 87);
@@ -155,13 +136,17 @@ a:hover{
     outline: none;
 }
 .creditos{
-    margin-left: 37.5%;
-    margin-top: 12%;
     font-size: 18px;
     opacity: 95%;
     color: white;
-
 }
+
 #box-home{
     margin: 0;
+}
+
+.atualizacao {
+    font-size: 14px;
+    opacity: 50%;
+    color: white;
 }
